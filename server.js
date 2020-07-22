@@ -13,7 +13,7 @@ app.use(
   })
 )
 
-const mongoURI = 'mongodb://localhost:27017/merndb'
+const mongoURI = 'mongodb+srv://jyoti_mourya:jyoti@123@cluster0-9bikr.mongodb.net/bloodCollection?retryWrites=true&w=majority'
 
 mongoose
   .connect(
